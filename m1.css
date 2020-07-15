@@ -1,0 +1,134 @@
+body
+{
+    background-image: url(theme.jpg);
+    background-image: cover;
+    overflow:scroll;
+    background-size:cover;
+
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav li {
+  float:left;
+}
+
+.nav li a, .dropbtn {
+  display: inline-block;
+  margin-left:40px;
+  color: white;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: none;
+font-size:20px;
+}
+
+.nav li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.nav li.dropdown {
+  display: inline-block;
+}
+
+.nav li .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav li .dropdown-content a {
+  margin-left:0px;
+  color:white;
+  padding: 12px 16px;
+  background-color: black;
+  text-decoration: none;
+  display: block;
+  text-align:center
+}
+
+.nav li .dropdown-content a:hover {background-color:red;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.info
+{   float:right;
+    margin:20px;
+    border:1px solid white;
+    border-radius:15px;
+    width:700px;
+    background-color: white;
+    
+}
+.pic{ background-color: white; opacity: 100%}
+.pic img{
+    float:left;
+    margin-left:8px;
+    margin-bottom: 8px;
+    border-radius:50%;
+    opacity:100%;
+}
+.minfo{
+    margin:10px;
+    border:1px solid grey;
+    border-radius:10px 15px;
+    float: right;
+    text-align: center;
+    padding: 0px;
+    width:500px;
+    background-color: dimgray;
+    color: white;
+    opacity: 100%;
+}
+.middle
+{  width:auto;
+    float:none;
+    margin-top:350px;
+    margin-left: 25px;
+    margin-right: 40px;
+    color:white;
+    text-align:center;
+    padding:30px;
+   
+}
+div.cont
+{   padding:15px 25px;
+    background-color:black;
+    font-family: sans-serif;
+    color:white;
+    opacity:70%;
+    font-size:30px;
+    width:auto;
+}
+div.cont p p1
+{
+    font-size:20px;
+    color:aqua;
+}
+div.cont1
+{  
+    background color:darkviolet;
+    padding:20px;
+    color:maroon;
+    font-size:25px;
+    font-weight:20px;
+    width:auto;
+}
+.cont1 p{
+    padding:5px;
+    border:1px solid aquamarine;
+    background-color: white;
+    font-weight: 200;
+    opacity:70%;
+    color:black;
+}

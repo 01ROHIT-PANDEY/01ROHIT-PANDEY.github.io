@@ -1,0 +1,108 @@
+.heading{
+    font-weight: 200px;
+    text-align: center;
+    text-decoration-line: underline;
+    background-color: white;
+    background-size: contain;
+    text-decoration: underline;
+    
+}
+div.topic{
+    background-image:url(hands.jpg);
+    background-size: cover;
+    opacity:80%
+    width:100%;
+    color:white;
+}
+.heading topic img{  
+    overflow: hidden;
+    margin-top:10px;
+    height:75px;;
+    width: 35%
+   
+}
+
+.heading topic h1{
+    color: green;
+    font-weight:500;
+    font-family: sans-serif;
+  
+
+}
+header{
+    background-color:dimgrey;
+    height: 50px;
+    padding:10px;
+    width:100%;
+    }
+header ul
+{
+    float:right;
+    
+}
+header ul li{
+    display: inline-block;
+    position:relative;
+}
+header ul li a
+{
+    color: white;
+    padding:5px 20px;
+    text-decoration: none;
+    font-weight: 300px;
+}
+header ul li a:hover{
+    background-color:firebrick;
+    color:white;
+    padding:20px;
+    align-items:center;
+}
+
+
+
+
+.main{
+    background-image:url(tag.jpg);
+    background-position: center;
+    background-size:900px 400px;
+    height:100%
+    color: white;
+    font-family:serif;
+    text-align: center;
+     border-style: solid;
+}
+.main blockquote{
+    color: white;
+}
+
+.body
+{
+    font-family: sans-serif;
+    font-size-adjust: 30px;
+    text-decoration-line: none;
+}
+.body h2,h3,h4{
+    text-decoration: underline;
+    color:yellow;
+    font-size: 30px;
+}
+.body p
+{
+    color: white;
+    font-weight: 800px;
+    text-align: center;
+   font-family: 'Fondamento', cursive;
+}
+.body  a{
+    color:goldenrod;
+    font-weight:bold;
+    font-size: 15px
+    
+  
+}
+.detail{
+    background-color: palevioletred;
+    text-align: center;
+    font-size: 20px;
+    padding:10px;
+}
