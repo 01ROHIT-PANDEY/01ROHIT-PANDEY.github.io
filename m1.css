@@ -166,7 +166,8 @@ body
   float:left;
   color: white;
   text-align:left;
-  text-decoration: none
+  text-decoration: none;
+  padding:20px 10px;
   font-size:20px;
    }
     .nav li .dropdown-content { margin-top:71px;}
