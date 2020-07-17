@@ -136,7 +136,7 @@ div.cont1
 }
 .cont1 p a{display: inline-block;padding:15px 5px;}
 
-@media screen and (max-width:768px) 
+@media screen and (max-width:600px) 
 {
 body
 {
@@ -158,7 +158,7 @@ body
     {
         float:center;
         height:120px;
-        width:470px;
+        width:100%;
     }
 
  
