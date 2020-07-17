@@ -136,7 +136,7 @@ div.cont1
 }
 .cont1 p a{display: inline-block;padding:15px 5px;}
 
-@media only screen and (max-width:768px) 
+@media screen and (max-width:768px) 
 {
 body
 {
@@ -156,9 +156,9 @@ body
 }
  .nav li img
     {
-        float:left;;
+        float:center;
         height:120px;
-        width:500px;
+        width:470px;
     }
 
  
